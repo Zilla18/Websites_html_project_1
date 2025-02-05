@@ -4,10 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* This is the styling 
 for the navbar */
 nav {
-  background-color: rgb(68, 60, 75);
+  background-color: rgb(67, 59, 73);
   padding: 1rem;
   margin-bottom: 2rem;
   border-bottom: 2px solid;
@@ -50,4 +51,29 @@ img {
 
 #img--ptag p {
   color: rgb(138, 131, 131);
+}
+
+/* footer styling */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(26, 25, 25);
+  height: 120px;
+}
+
+#footer--ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  margin: 1rem;
+}
+#footer--ul a {
+  text-decoration: none;
+  color: brown;
+}
+
+#copyright {
+  color: #afa7a7;
+  margin: 0.5rem;
 }
