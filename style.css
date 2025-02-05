@@ -1,0 +1,53 @@
+/* This is the global preset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* This is the styling 
+for the navbar */
+nav {
+  background-color: rgb(68, 60, 75);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* This is the styling 
+for the navigation links */
+.nav--links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+}
+
+/* Here is to remove
+ decoration on the navlinks */
+.nav--links a {
+  text-decoration: none;
+  color: #e4e1e1;
+}
+
+/* Styling the h1 */
+h1 {
+  color: brown;
+  font-size: x-large;
+  margin: 1rem 1rem;
+}
+
+/* img--ptag */
+#img--ptag {
+  margin: 0.8rem;
+}
+
+img {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+#img--ptag p {
+  color: rgb(138, 131, 131);
+}
